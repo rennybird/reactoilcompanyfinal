@@ -3,9 +3,9 @@ import './DashboardPage.css';  // Create this CSS file for custom styles
 
 const DashboardPage: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl font-bold mb-8">This is PowerBI Financial Dashboard</h1>
-      <div className="w-full h-full mt-8">
+    <div className="dashboard-container flex flex-col items-center justify-center h-screen bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white">
+      <h1 className="text-5xl font-bold mb-8">PowerBI Financial Dashboard</h1>
+      <div className="w-11/12 h-4/5 mt-8 border-4 border-yellow-400 rounded-lg overflow-hidden">
         <iframe
           title="try_finance"
           className="w-full h-full"

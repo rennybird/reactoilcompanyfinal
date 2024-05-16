@@ -1,0 +1,28 @@
+/* DashboardPage.css */
+.bg-gradient-to-r {
+    background: linear-gradient(to right, #2d3748, #1a202c, #000000);
+  }
+  .text-yellow-400 {
+    color: #ecc94b;
+  }
+  .border-yellow-400 {
+    border-color: #ecc94b;
+  }
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .animate-spin-slow {
+    animation: spin 3s linear infinite;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

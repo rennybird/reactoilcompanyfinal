@@ -1,8 +1,18 @@
 /* WelcomePage.css */
 .bg-gradient-to-r {
-    background: linear-gradient(to right, #4299e1, #9f7aea);
+  background: linear-gradient(to right, #4299e1, #9f7aea);
+}
+.hover\:bg-gray-200:hover {
+  background-color: #e2e8f0;
+}
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
   }
-  .hover\:bg-gray-200:hover {
-    background-color: #e2e8f0;
+  50% {
+    transform: translateY(-15px);
   }
-  
+}
