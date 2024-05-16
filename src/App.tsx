@@ -1,15 +1,17 @@
-import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import WelcomePage from './WelcomePage';
+import DashboardPage from './DashboardPage';
+import './App.css';
 
-const message = `Welcome to React+Tailwind`;
-const btnText = `Click me for nothing`;
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl font-bold mb-8">{message}</h1>
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        {btnText}
-      </button>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/" element={<WelcomePage />} />
+      </Routes>
+    </Router>
   );
 }
 
