@@ -28,7 +28,7 @@ const DashboardPage: React.FC = () => {
         <iframe
           title="try_finance"
           className="w-full h-full"
-          src="https://app.powerbi.com/view?r=eyJrIjoiMzg5ZWE0MzYtMWQ2MS00YjNjLTgxNjktMzA5YWI5OWJmYTdiIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D"
+          src="https://app.powerbi.com/view?r=eyJrIjoiZTEzNmQ2N2UtNzdmYy00N2M4LTlmNmItNDhhZjk2NjM1ZjNkIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D"
           frameBorder="0"
           allowFullScreen={true}
         ></iframe>
